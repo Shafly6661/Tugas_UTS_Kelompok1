@@ -2,3 +2,27 @@
     background-color: red;
     color: white;
 }
+#home {
+    background-image: url(../img/img1.jpeg);
+    color: whitesmoke;
+    height: 100vh;
+}
+#product {
+    background-image: url(../img/img1.jpeg);
+    color: whitesmoke;
+}
+/* NAVBAR */
+.navbar-nav{
+    padding-right: 50px;
+    color: whitesmoke;
+}
+.nav-item{
+    padding-right: 25px;
+    color: whitesmoke;
+}
+.bg-light {
+    background-color: rgba(0,0,0,0) !important;
+}
+.bg-nontrans {
+    background-color: rgba(255,255,255,255) !important;
+}
