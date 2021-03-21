@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <title>Tugas UTS KELOMPOK 1</title>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#"><i><b>Shumi-ku</b> Shop</i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#produk">Produk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kurir">Kurir</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pembayaran">Pembayaran</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontak">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <h1>Selamat datang di web <i><b>Shumi-ku</b> Shop</i></h1>
+                    <h4>Tempatnya jual action figure terpercaya dengan kuliatas yang good sangat</h4>
+                    <br>
+                </div>
+                <section class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="media">
+                                    <div class="iconbox iconmedium rounded-circle text-info mr-4">
+                                        <i class="fa fa-truck"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5>Pengiriman Cepat</h5>
+                                        <p class="text">
+                                            Pengiriman Cepat, secepat kilat!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="media">
+                                    <div class="iconbox iconmedium rounded-circle text-purple mr-4">
+                                        <i class="fa fa-credit-card"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5>Pembayaran Online</h5>
+                                        <p class="text">
+                                            Bisa dibayar online ataupun COD, Dilarang Ngutang!!!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="media">
+                                    <div class="iconbox iconmedium rounded-circle text-warning mr-4">
+                                        <i class="fa fa-sync-alt"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5>Gratis Pengembalian</h5>
+                                        <p class="text">
+                                            Pengembalian gratis jika barang rusak atupun tidak sesuai pesanan.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </section>
+    <section class="products-grids trending pb-4" id="produk">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>Action Figure Terpopuler</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img" data-toggle="modal" data-target="#modal">
+                            <a href="#">
+                                <img src="./img/Carousel2.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content" data-toggle="modal" data-target="#modal">
+                            <h3><a href="#">Cool &amp; Awesome Item</a></h3>
+                            <div class="product-price">
+                                <span>$60.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img" data-toggle="modal" data-target="#modal">
+                            <a href="#">
+                                <img src="./img/Carousel1.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content" data-toggle="modal" data-target="#modal">
+                            <h3><a href="#">Cool &amp; Awesome Item</a></h3>
+                            <div class="product-price">
+                                <span>$40.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img" data-toggle="modal" data-target="#modal">
+                            <a href="#">
+                                <img src="./img/Carousel3.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="#">Cool &amp; Awesome Item</a></h3>
+                            <div class="product-price">
+                                <span>$50.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img" data-toggle="modal" data-target="#modal">
+                            <a href="#" > 
+                               <img src="./img/Carousel3.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="#">Cool &amp; Awesome Item</a></h3>
+                            <div class="product-price">
+                                <span>$50.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        
+        <div class="modal-header">
+          <h4 class="modal-title">Detail Barang</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        
+        <div class="modal-body">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="product-img" data-toggle="modal" data-target="#modal">
+                        <img src="./img/Carousel3.jpg" class="img-modal" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="product-content">
+                        <h3>Cool &amp; Awesome Item</h3>
+                        <div class="product-price">
+                            <span>$50.00</span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+        
+        <!-- Footer Modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chart" data-dismiss="modal">Tambah Ke Keranjang</button>
+           <button type="button" class="btn btn-secondary" >Beli Langsung</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="chart">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        
+        <div class="modal-header">
+          <h4 class="modal-title">Detail Barang</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        
+        <div class="modal-body">
+           <h3>Barang Sudah Ditambahkan Ke Keranjang</h3>
+        </div>
+            
+        
+        <!-- Footer Modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger"  data-dismiss="modal">Kembali Ke Home</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+    </section>
+    <section id="kurir">
+        <div class="container">
+            <div class="section-title">
+                <h2>JASA PENGIRIMAN</h2>
+            </div>
+            <br> 
+            <div class="row" id="jasa">
+                        
+                            <div class="col-sm-2">
+                                <img src="./img/kurir/tiki.jpg" alt=""  id="jaskir">
+                            </div>
+                            <div class="col-sm-2" >
+                                <img src="./img/kurir/pos.jpg" alt=""  id="jaskir">
+                            </div>
+                            <div class="col-sm-2">
+                                <img src="./img/kurir/ninja.png" alt=""  id="jaskir">
+                            </div>
+                            <div class="col-sm-2">
+                                <img src="./img/kurir/JNE.png" alt=""  id="jaskir">
+                            </div>
+                            <div class="col-sm-2">
+                                <img src="./img/kurir/JNT.png" alt=""  id="jaskir">
+                            </div>
+                            <div class="col-sm-2">
+                                <img src="./img/kurir/anteraja.jpg" alt=""  id="jaskir">
+                            </div>
+                            <div class="col-sm">
+                                <img src="./img/kurir/sicepat.jpg" alt=""  id="jaskir">
+                            </div>
+                        
+            </div>
+        </div>
+    </section>
+    <section id="pembayaran">
+        <div class="container">
+            <h2 class="text-center">Metode Pembayaran </h2>
+            <div class="row" id="pengiriman">
+                <div class="col-sm-3 text-center">
+                    <img src="./img/pembayaran/Go.png" alt="" id="kirim">
+                    <p style="font-family: 'Times New Roman', Times, serif;">Go-pay</p>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <img src="./img/pembayaran/BCA.png" alt="" id="kirim">
+                    <p style="font-family: 'Times New Roman', Times, serif;">Bank BCA</p>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <img src="./img/pembayaran/Logo OVO.png" alt="" id="kirim">
+                        <p style="font-family: 'Times New Roman', Times, serif;">OVO</p>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <img src="./img/pembayaran/BNI.png" alt="" id="kirim">
+                            <p style="font-family: 'Times New Roman', Times, serif;">BNI</p>
+                            </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center"> About Us </h2>
+            <div class="row">
+                
+                <div class="col-md-6 ">
+                    
+                    <img src="./img/Action.jpg">
+                    
+                </div>
+                <div class="col-md-6 ">
+                    <p>Web Ini dibuat untuk memenuhi tugas UTS Matkul Pemrograman Web Lanjut yang di kerjakean oleh Ricky Ilham, Shafly Nabhan Kurniawan, Dan Fatra Chandra, Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolor dolores tempore inventore doloribus iusto, deleniti cumque dicta incidunt commodi pariatur ipsam quos, id cum! Voluptatem doloribus fugiat distinctio facere.</p>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="kontak">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="head text-center text-white py-3">
+                                        <h3>Contact Us</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form py-3">
+                                <div class="form-row my-5">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="effect-1" placeholder="First Name">
+                                        <span class="Focus-border"></span>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="effect-1" placeholder="Last Name">
+                                        <span class="Focus-border"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-lg-12">
+                                        <input type="text" class="effect-1" placeholder="Email Address">
+                                        <span class="Focus-border"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row pt-5">
+                                    <div class="col-lg-12">
+                                        <input type="text" class="effect-1" placeholder="Your Message">
+                                        <span class="Focus-border"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row pt-4">
+                                    <div class="col-lg-6">
+                                        <p><input type="checkbox"> I'M Not Robot</p>
+                                    </div>
+                                    <div class="offset-2 col-lg-4">
+                                        <button class="btn1">SEND</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).scroll(function () {
+            if ($(window).scrollTop() > 50) {
+                $('#navbar').removeClass('bg-light').addClass('bg-nontrans');
+            } else if ($(window).scrollTop() <= 50) {
+                $('#navbar').removeClass('bg-nontrans').addClass('bg-light');
+            }
+        });
+        
+    </script>
+    
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Whatsapp -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-whatsapp"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="#">Shumi-ku Shop</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
